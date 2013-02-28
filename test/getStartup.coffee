@@ -1,7 +1,7 @@
 should    = require 'should'
 AngelList = require 'index'
 
-accessToken = process.env.GFL_ANGEL_ACCESS_TOKEN
+accessToken = process.env.DF_ANGEL_ACCESS_TOKEN
 
 describe 'get company for slug', () ->
   angel = new AngelList accessToken
